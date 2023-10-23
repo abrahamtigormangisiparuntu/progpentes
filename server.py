@@ -71,10 +71,7 @@ def main():
     if ip == "":
         print("Ip must be filled !")
         exit()
-    if port >2500 :
-        print("Port must be between 2000 and 2500!")
-        exit()
-    if port <2000 :
+    if port >2500 or port <2000:
         print("Port must be between 2000 and 2500!")
         exit()
     
