@@ -3,7 +3,7 @@ import socket
 import sys
 from getopt import getopt
 
-print("ini adalah SERVER\n")
+print("ini adalah SERVER")
 
 # bikin socketnya, deklarasi s sebagai socket
 server= socket.socket(socket.AF_INET, socket.SOCK_STREAM)
