@@ -67,11 +67,12 @@ def main():
             ip=value
         elif opt == "-p" or opt =="--port":
             port = int(value)
-
+           #jika portnya kosong, maka akan diminta untuk harus diberikan port
     if ip == "":
         print("Ip must be filled !")
         exit()
-    if port >2500 or port <2000:
+           #port harus antara 2500 sampai dengan 2000
+    if port >2500 or port <2000: 
         print("Port must be between 2000 and 2500!")
         exit()
     
